@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import {Archive,Home,Login,NoteListing,SignUp,Trash} from "./pages/index.js"
+import {SideNav} from "./components/sidenav/sidenav"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="mainBlock">
+      <div className="sidenav-block">
+        <SideNav />
+      </div>
+      <div className="routes-block">
+        <Routes>
+          <Route path="/" element={<NoteListing />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/archive" element={<Archive />} />
+          <Route path="/notelisting" element={<NoteListing />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/trash" element = {<Trash />} />
+        </Routes>
+      </div>
     </div>
   );
 }

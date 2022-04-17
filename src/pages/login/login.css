@@ -1,0 +1,31 @@
+.auth-card
+{
+    padding: 0rem 2rem 2rem 2rem;
+    width: 600px;
+    max-width: 340px;
+    height: auto;
+    margin: 7% auto;
+    border:0.05rem solid var(--border-light);
+}
+.signup-card
+{
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+.login-btn
+{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: var(--info-color);
+    color: var(--white);
+    padding: 0.5rem;
+}
+.margin-top-1
+{
+    margin-top: 1rem;
+}
+.basic-input
+{
+    max-width: 20rem;
+}

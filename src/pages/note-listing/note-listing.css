@@ -1,0 +1,71 @@
+.center-text
+{
+    text-align: center;
+    margin-top: 1rem;
+}
+.form-title
+{
+    display: block;
+    width: 60%;
+    font-size: 1.2rem;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin: 2rem auto 1rem auto; 
+}
+.notes-textarea
+{
+    display: block;
+    width: 60%;
+    margin: 0% auto;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+.notes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 220px;
+    height: 250px;
+    border:1px solid var(--black-light);
+    border-radius: 4px;
+    margin: 1rem;
+    padding: 1rem;
+}
+.note-footer
+{
+    position: sticky;
+    bottom: 0;
+    color: var(--black-light);
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.note-footer .fa:hover
+{
+    cursor: pointer;
+    color: var(--black);
+}
+.notes-list
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.save-btn
+{
+    display: block;
+    padding:8px;
+    border: none;
+    border-radius: 4px;
+    margin: 2px auto;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+
+
+
+
+

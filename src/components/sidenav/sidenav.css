@@ -1,0 +1,16 @@
+.sideBar
+{
+    background-color:black;
+    color: white;
+    padding: 1.4rem;
+    height: 94vh;
+}
+.listItem
+{
+    list-style: none;
+    padding:4% 0%;
+    cursor: pointer;
+}
+.listItem:hover{
+    background-color:rgba(84, 81, 81, 0.479);
+}

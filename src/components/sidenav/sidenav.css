@@ -1,7 +1,7 @@
 .sideBar
 {
-    background-color:black;
-    color: white;
+    background-color:var(--black);
+    color: var(--white);
     padding: 1.4rem;
     height: 94vh;
 }

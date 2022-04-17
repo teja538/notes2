@@ -123,7 +123,7 @@ const NoteListing = () => {
             ></textarea>
 
             <span>
-              <i className="fas fa-palette" onClick={(e) => colorNote()}></i>
+              <i className="	fa fa-paint-brush" onClick={(e) => colorNote()}></i>
             </span>
             {showColors && (
               <div className="color-block">
@@ -205,7 +205,7 @@ const NoteListing = () => {
                 </span>
                 <span>
                   <i
-                    className="fas fa-palette"
+                    className="fa fa-paint-brush"
                     onClick={(e) => editNote(item)}
                   ></i>
                 </span>

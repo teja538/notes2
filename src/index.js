@@ -5,7 +5,7 @@ import { FilterSortProvider } from "./context/filterSortContext";
 import "./index.css";
 import "./utils.css";
 import App from "./App";
-import "https://kit.fontawesome.com/a076d05399.js";
+// import "https://kit.fontawesome.com/a076d05399.js";
 
 ReactDOM.render(
   <React.StrictMode>

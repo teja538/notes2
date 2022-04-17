@@ -3,51 +3,109 @@
     {
       "id": "tejajdajv",
       "title": "title1",
-      "notes": "notes textlkjkfa"
-    },
-    {
-      "id": "52e17947-cad2-4df5-82d5-ae094582fca0",
-      "title": "bhanu hfdoig ",
-      "notes": "lksjlgkngfd"
-    },
-    {
-      "id": "15a413bc-2c0d-4334-96f9-c3e1458debe2",
-      "title": "hi",
-      "notes": "nNZzx lorem\ndsh\nghd\ngf\nh\nh\nd\nf\ngh\nf\nh\n\n\nj\nfg\nj\ng\nf\nj\nfkjh"
+      "notes": "notes textlkjkfa",
+      "backgroundColor": "",
+      "label": ""
     },
     {
       "id": "d3e91f1b-4121-42bb-81e4-2174c6ef9b01",
       "title": "lksadf",
-      "notes": ""
+      "notes": "",
+      "backgroundColor": "#59657a"
+    },
+    {
+      "id": "52e17947-cad2-4df5-82d5-ae094582fca0",
+      "title": "bhanu hfdoig change1",
+      "notes": "lksjlgkngfd",
+      "backgroundColor": "#fff475"
+    },
+    {
+      "id": "b12fc461-90ea-4875-b1b8-065ff41d9746",
+      "title": "title color check",
+      "notes": "kasjdgkjbg",
+      "color": "white"
+    },
+    {
+      "id": "ede82d51-2240-42ee-a9e5-4b20d8d559d0",
+      "title": "lskjdf",
+      "notes": "lkang,ag",
+      "backgroundColor": "",
+      "label": ""
+    },
+    {
+      "id": "7142d369-23aa-43a2-84f1-61cc8c87678a",
+      "title": ";ll.m.,.,m",
+      "notes": ";llm",
+      "backgroundColor": "#ccff90"
+    },
+    {
+      "id": "9aa6114b-11f6-46ed-b022-b76644425e3b",
+      "title": ",mzx",
+      "notes": ".kxc,v.,xzn,mv",
+      "backgroundColor": "",
+      "label": "",
+      "createdOn": "4/17/2022, 10:21:24 PM"
+    },
+    {
+      "id": "6248ef80-885c-4841-920a-9dde22c74d06",
+      "title": "m",
+      "notes": ",m",
+      "backgroundColor": "",
+      "label": "",
+      "createdOn": "4/17/2022, 11:09:28 PM"
     }
   ],
   "trashList": [
     {
       "id": "00896375-c6fd-48b9-bdaa-441e1e3d741b",
       "title": "title145",
-      "notes": "asfdf"
+      "notes": "asfdf",
+      "backgroundColor": "",
+      "label": ""
     },
     {
       "id": "250123c6-2acd-48ac-aa85-4b4de08df55f",
       "title": "hii",
-      "notes": "sdajf"
+      "notes": "sdajf",
+      "backgroundColor": "",
+      "label": ""
     },
     {
       "id": "e3369f7b-55ea-48a4-86b2-5bef0e59d80a",
       "title": "title2huwe",
-      "notes": "sgdfs"
+      "notes": "sgdfs",
+      "backgroundColor": "",
+      "label": ""
     },
     {
       "id": "isjdkljsaowqjet",
       "title": "archive title1",
-      "notes": "noteskjnsa"
+      "notes": "noteskjnsa",
+      "backgroundColor": "",
+      "label": ""
     }
   ],
   "archiveList": [
     {
       "id": "f6054a4d-3df0-4c24-9695-c9bb16e58c8d",
       "title": "hello-edited",
-      "notes": "ksjdg,dg 9oiweqrjsa"
+      "notes": "ksjdg,dg 9oiweqrjsa",
+      "backgroundColor": "",
+      "label": ""
+    },
+    {
+      "id": "15a413bc-2c0d-4334-96f9-c3e1458debe2",
+      "title": "hi",
+      "notes": "nNZzx lorem\ndsh\nghd\ngf\nh\nh\nd\nf\ngh\nf\nh\n\n\nj\nfg\nj\ng\nf\nj\nfkjh",
+      "backgroundColor": "",
+      "label": ""
+    },
+    {
+      "id": "8e7d37cd-46ce-4ecd-9bad-455b6b9644dc",
+      "title": "hii",
+      "notes": "green note",
+      "backgroundColor": "#ccff90",
+      "label": ""
     }
   ]
 }

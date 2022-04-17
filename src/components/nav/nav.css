@@ -1,0 +1,8 @@
+.basic-navbar
+{
+    background-color: var(--black);
+}
+.sort
+{
+    cursor: pointer;
+}

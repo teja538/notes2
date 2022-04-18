@@ -21,7 +21,7 @@ const Archive = () => {
       <h1 className="center-text">Archived Notes({archiveList.length})</h1>
       <div className="notes-list">
         {archiveList.map((item) => (
-          <div className="notes" key={item.id}>
+          <div className="notes" key={item.id} style={{"backgroundColor":item.backgroundColor}}>
             <div>
               <h2>{item.title}</h2>
               <p>{item.notes}</p>

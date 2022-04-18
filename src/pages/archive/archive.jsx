@@ -23,7 +23,8 @@ const Archive = () => {
         {archiveList.map((item) => (
           <div className="notes" key={item.id} style={{"backgroundColor":item.backgroundColor}}>
             <div>
-              <h2>{item.title}</h2>
+              <h2 className="card-title">{item.title}</h2>
+              <span className="sel-label"><i className="fa fa-tag"></i> {item.label}</span>
               <p>{item.notes}</p>
             </div>
             <div className="note-footer">

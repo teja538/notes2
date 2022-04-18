@@ -61,7 +61,7 @@
 .save-btn
 {
     display: block;
-    padding:8px;
+    padding:8px 24px;
     border: none;
     border-radius: 4px;
     margin: 2px auto;
@@ -85,6 +85,25 @@
 .timeStamp
 {
     margin-left:30%;
+}
+.select-label
+{
+    margin-left: 1rem; 
+}
+.sel-label
+{
+    display: absolute;
+    top: 0px;
+    left: 0px;
+    background-color:var(--warning-color);
+    border-radius: 10%;
+    border: none;
+    margin-left: 10px;
+    padding: 0px 5px;
+}
+.card-title
+{
+    display: inline;
 }
 
 

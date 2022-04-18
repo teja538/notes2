@@ -14,7 +14,9 @@ const NoteListing = () => {
   const [notesList, setNotesList] = useState([]);
   const [showColors, setShowColors] = useState(false);
   const [backgroundColor, setBackgroundColor] = useState("");
+  const [label,setLabel] = useState("no-label");
 
+  console.log({label})
   const titleClickHandler = () => setShowTextArea(true);
   useEffect(() => {
     (async () => {
@@ -42,7 +44,7 @@ const NoteListing = () => {
       title,
       notes,
       backgroundColor,
-      label: "",
+      label,
       createdOn: new Date().toLocaleString() + "",
     };
     axios.post("http://localhost:5001/notes", newNote);
@@ -51,6 +53,7 @@ const NoteListing = () => {
     setNotes("");
     setBackgroundColor("");
     setNotesList((prev) => [...prev, newNote]);
+    setLabel("no-label")
   };
 
   const deleteNote = (note) => {
@@ -78,6 +81,7 @@ const NoteListing = () => {
       id: selectedNote.id,
       title,
       notes,
+      label:label,
       backgroundColor: backgroundColor,
     });
     setNotesList((prev) =>
@@ -91,6 +95,7 @@ const NoteListing = () => {
     setShowUpdateBtn(false);
     setShowTextArea(false);
     setShowColors(false);
+    setLabel("no-label");
   };
 
   const colorNote = (note) => {
@@ -124,6 +129,12 @@ const NoteListing = () => {
 
             <span>
               <i className="	fa fa-paint-brush" onClick={(e) => colorNote()}></i>
+              <select value={label} onChange={(e)=>setLabel(e.target.value)} className="select-label">
+                <option value="no-label">no-label</option>
+                <option value="work">work</option>
+                <option value="study">study</option>
+                <option value="fun">fun</option>
+              </select>
             </span>
             {showColors && (
               <div className="color-block">
@@ -179,7 +190,8 @@ const NoteListing = () => {
             style={{ backgroundColor: item.backgroundColor }}
           >
             <div>
-              <h2>{item.title}</h2>
+              <h2 className="card-title">{item.title}</h2>
+              <span className="sel-label"><i className="fa fa-tag"></i> {item.label}</span>
               <p>{item.notes}</p>
             </div>
             <div>
